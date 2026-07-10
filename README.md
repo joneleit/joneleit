@@ -1,60 +1,94 @@
-# Aidan Joneleit
+<div align="center">
 
-ML engineering across the full stack — training, RL post-training, and inference systems.
-EECS + Business @ UC Berkeley (M.E.T. '28).
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=210&section=header&text=Aidan%20Joneleit&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Software%20Engineer&descAlignY=60&descSize=20" width="100%"/>
 
-Currently: machine learning engineer at **TriasBio**, fine-tuning RNA language models for
-personalized therapeutics. Previously: built RL environments and agent evals (**OpenAI**,
-contract) and on-device LLM serving on Snapdragon with ONNX/QNN (**Qualcomm**, contract).
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2575FC&center=true&vCenter=true&width=780&lines=AI+software+engineer+who+builds+end+to+end;Fine-tuning+RNA+language+models+%40+TriasBio;Agent+evals+and+RL+environments+%40+OpenAI;On-device+LLM+serving+%40+Qualcomm)](https://github.com/joneleit)
 
-## Featured work
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidanjoneleit)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joneleit@berkeley.edu)
+[![UC Berkeley](https://img.shields.io/badge/UC%20Berkeley-M.E.T.%20Program-003262?style=for-the-badge&logo=googlescholar&logoColor=FDB515)](https://met.berkeley.edu/)
 
-### [kestrel](https://github.com/joneleit/kestrel) — an LLM inference engine from scratch
+</div>
 
-Paged KV cache with prefix caching, continuous batching with chunked prefill and
-preemption, speculative decoding, INT8 weight-only quantization, a Triton
-paged-attention decode kernel, and an OpenAI-compatible server with Prometheus
-metrics. No vLLM, no TGI — the point is owning every layer between an HTTP
-request and the kernel.
+---
 
-- Core invariant enforced by tests: paged, batched, cache-reusing decoding is
-  **token-for-token identical** to naive dense decoding — including under forced
-  preemption and prefix-cache reuse
-- Speculative decoding verified against the exactness guarantee (greedy identity +
-  distributional equality), not eyeballed outputs
-- Ships with Terraform for GPU spot serving, an EKS manifest that autoscales on
-  KV-cache pressure instead of CPU, and a Grafana dashboard for TTFT/throughput/KV
-- `pytest`: 41 passed (3 GPU kernel tests run on the deploy box)
+## 👋 About me
 
-### [loom](https://github.com/joneleit/loom) — training a small LLM end to end
+I'm an AI software engineer who likes building things end to end, from the product down to the systems that run it. I'm at UC Berkeley earning a B.S. Electrical Engineering and Computer Sciences and a B.S. Business Administration through the M.E.T. dual-degree program.
 
-Byte-level BPE → packed-corpus pretraining → prompt-masked SFT → **GRPO implemented
-from the math up** (group-relative advantages, PPO-clip surrogate, k3 KL to a frozen
-reference — no TRL) → eval harness with unbiased pass@k and contamination gates.
+- 🧬 Summer 2026: ML engineer at TriasBio, fine-tuning RNA language models to help design personalized medicines
+- 🤖 Recently: built reinforcement-learning training environments and agent evaluations at OpenAI, and got large language models running directly on Snapdragon phone chips at Qualcomm
+- 🃏 Founder of PokePulse, a Python e-commerce platform with automatic pricing (~500 products, about $21K per month in profit) that I ran for seven years
+- 🏔️ Eagle Scout who led a 176-mile backcountry expedition. I disappear into the mountains when my training runs are stable
 
-- The whole pipeline actually runs and is committed with its metrics: held-out
-  accuracy **3% → 20% → 26%** across pretrain → SFT → GRPO on a
-  verifiable-reward task with train/eval disjoint by construction
-- DDP/FSDP trainer with atomic checkpoints: interrupt-and-resume is **bitwise
-  identical** to an uninterrupted run (unit-tested) — built for spot instances
-- Documented failure modes I hit and fixed: GRPO's zero-variance cold start,
-  contamination false positives from substring matching, torn checkpoints from
-  non-atomic saves
+<div align="center">
 
-Both repos carry a `DESIGN.md` (decisions + tradeoffs) and a `ROADMAP.md` of open
-exercises I'm working through — benchmarks vs. vLLM and a 20M-param TinyStories
-run are next.
+## 🛠️ Tools I build with
 
-## Elsewhere
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
-- Founded **PokePulse**, a Python e-commerce platform with dynamic repricing
-  (~500 SKUs, ~$21K/mo profit) — seven years of keeping production software alive
-- Published research on stochastic modeling for cryptocurrency valuation (ICFTBA 2024);
-  led a DeFi platform build with ~3,000 transactions in open beta
-- Eagle Scout; led a 176-mile Philmont expedition. I still disappear into the
-  backcountry when the training runs are stable.
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-## Contact
+</div>
 
-[joneleit@berkeley.edu](mailto:joneleit@berkeley.edu) ·
-[LinkedIn](https://www.linkedin.com/in/aidanjoneleit)
+---
+
+## 🚀 Featured projects
+
+### 🦅 [kestrel](https://github.com/joneleit/kestrel) — an LLM inference engine built from scratch
+
+> **In plain English:** the software that actually runs a large language model and streams back answers, the same job tools like vLLM do. I built every layer myself, from the web server down to the GPU code, so I understand how it works underneath.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Triton](https://img.shields.io/badge/-Triton%20GPU%20kernel-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-41%20passing-brightgreen?style=flat-square)
+
+- ⚡ Real serving techniques (paged memory, request batching, speculative decoding) that make a language model respond fast
+- ✅ Proven correct by tests: the fast version gives exactly the same output as the simple reference version, even under memory pressure
+- ☁️ Full production setup: an OpenAI-compatible API, one-command AWS deployment, and live dashboards for speed and cost
+
+### 🧵 [loom](https://github.com/joneleit/loom) — training a language model from zero
+
+> **In plain English:** I built the full pipeline to create a small language model from nothing. Teach it to read, then teach it to answer, then improve it with reinforcement learning, and I measured that it got smarter at each step.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![GRPO](https://img.shields.io/badge/-GRPO%20RL-8A2BE2?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-28%20passing-brightgreen?style=flat-square)
+
+- 📈 Accuracy climbed 3% to 20% to 26% across the three training stages on a held-out test, and every number is real and saved in the repo
+- 🧮 The reinforcement-learning algorithm (GRPO) is written from the math up, with no pre-made library
+- 💾 Survives cloud interruptions: training resumes exactly where it left off, which keeps costs low on cheap spot servers
+
+<div align="center">
+
+Both repos include a design write-up explaining every decision and a roadmap of what I'm building next.
+
+---
+
+## 📊 GitHub stats
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=joneleit&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joneleit&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=joneleit&theme=tokyonight&hide_border=true" height="165" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=joneleit&theme=tokyonight&no-frame=true&column=7&margin-w=8" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=110&section=footer" width="100%"/>
+
+</div>
