@@ -5,7 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=A371F7&center=true&vCenter=true&width=780&lines=AI+software+engineer+who+builds+end+to+end;Fine-tuning+RNA+language+models+%40+TriasBio;Agent+evals+and+RL+environments+%40+OpenAI;On-device+LLM+serving+%40+Qualcomm)](https://github.com/joneleit)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidanjoneleit)
-[![Email](https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](https://mail.google.com/mail/?view=cm&fs=1&to=joneleit@berkeley.edu)
+[![Email](https://img.shields.io/badge/joneleit@berkeley.edu-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:joneleit@berkeley.edu)
 [![UC Berkeley](https://img.shields.io/badge/UC%20Berkeley-M.E.T.%20Program-161b22?style=for-the-badge&logo=googlescholar&logoColor=FDB515)](https://met.berkeley.edu/)
 
 </div>
@@ -53,7 +53,7 @@ I'm an AI software engineer who likes building things end to end, from the produ
 
 - ⚡ Real serving techniques (paged KV cache, continuous batching, speculative decoding) that keep latency low under load
 - ✅ Correctness proven by tests: the optimized path produces identical output to a simple reference implementation, even under memory pressure
-- ☁️ Production-ready: an OpenAI-compatible API, one-command AWS deployment, and live dashboards for throughput and cost
+- ☁️ Productin-ready: an OpenAI-compatible API, one-command AWS deployment, and live dashboards for throughput and cost
 
 ### 🧵 [loom](https://github.com/joneleit/loom) ~ training a language model from zero
 
