@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:6e40c9&height=200&section=header&text=Aidan%20Joneleit&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Software%20Engineer&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:6e40c9&height=200&section=header&text=Aidan%20Joneleit&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=AI%20Software%20Engineer&descAlignY=58&descSize=18" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=A371F7&center=true&vCenter=true&width=780&lines=AI+software+engineer+who+builds+end+to+end;Fine-tuning+RNA+language+models+%40+TriasBio;Agent+evals+and+RL+environments+%40+OpenAI;On-device+LLM+serving+%40+Qualcomm)](https://github.com/joneleit)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidanjoneleit)
-[![Email](https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:joneleit@berkeley.edu)
+[![Email](https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](https://mail.google.com/mail/?view=cm&fs=1&to=joneleit@berkeley.edu)
 [![UC Berkeley](https://img.shields.io/badge/UC%20Berkeley-M.E.T.%20Program-161b22?style=for-the-badge&logo=googlescholar&logoColor=FDB515)](https://met.berkeley.edu/)
 
 </div>
