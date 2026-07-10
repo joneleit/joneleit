@@ -42,30 +42,30 @@ I'm an AI software engineer who likes building things end to end, from the produ
 
 ## 🚀 Featured projects
 
-### 🦅 [kestrel](https://github.com/joneleit/kestrel) — an LLM inference engine built from scratch
+### 🦅 [kestrel](https://github.com/joneleit/kestrel) ~ an LLM inference engine built from scratch
 
-> **In plain English:** the software that actually runs a large language model and streams back answers, the same job tools like vLLM do. I built every layer myself, from the web server down to the GPU code, so I understand how it works underneath.
+> The system that serves a large language model and streams tokens back to the user, the same role tools like vLLM and TGI play. I wrote every layer myself, from the HTTP server down to the GPU kernels, so I understand exactly how inference works.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Triton](https://img.shields.io/badge/-Triton%20kernel-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-41%20passing-2ea043?style=flat-square)
 
-- ⚡ Real serving techniques (paged memory, request batching, speculative decoding) that make a language model respond fast
-- ✅ Proven correct by tests: the fast version gives exactly the same output as the simple reference version, even under memory pressure
-- ☁️ Full production setup: an OpenAI-compatible API, one-command AWS deployment, and live dashboards for speed and cost
+- ⚡ Real serving techniques (paged KV cache, continuous batching, speculative decoding) that keep latency low under load
+- ✅ Correctness proven by tests: the optimized path produces identical output to a simple reference implementation, even under memory pressure
+- ☁️ Production-ready: an OpenAI-compatible API, one-command AWS deployment, and live dashboards for throughput and cost
 
-### 🧵 [loom](https://github.com/joneleit/loom) — training a language model from zero
+### 🧵 [loom](https://github.com/joneleit/loom) ~ training a language model from zero
 
-> **In plain English:** I built the full pipeline to create a small language model from nothing. Teach it to read, then teach it to answer, then improve it with reinforcement learning, and I measured that it got smarter at each step.
+> A full pipeline that builds a small language model from scratch: pretraining, then supervised fine-tuning, then reinforcement learning, with evaluations at each stage that show the model measurably improve.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![GRPO](https://img.shields.io/badge/-GRPO%20RL-8957e5?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-28%20passing-2ea043?style=flat-square)
 
-- 📈 Accuracy climbed 3% to 20% to 26% across the three training stages on a held-out test, and every number is real and saved in the repo
-- 🧮 The reinforcement-learning algorithm (GRPO) is written from the math up, with no pre-made library
+- 📈 Held-out accuracy climbed 3% to 20% to 26% across the three training stages, and every number is reproducible from the repo
+- 🧮 The reinforcement-learning algorithm (GRPO) is implemented from the math up, with no pre-made library
 - 💾 Survives cloud interruptions: training resumes exactly where it left off, which keeps costs low on cheap spot servers
 
 <div align="center">
