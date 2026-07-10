@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=210&section=header&text=Aidan%20Joneleit&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Software%20Engineer&descAlignY=60&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:6e40c9&height=200&section=header&text=Aidan%20Joneleit&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Software%20Engineer&descAlignY=58&descSize=18" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2575FC&center=true&vCenter=true&width=780&lines=AI+software+engineer+who+builds+end+to+end;Fine-tuning+RNA+language+models+%40+TriasBio;Agent+evals+and+RL+environments+%40+OpenAI;On-device+LLM+serving+%40+Qualcomm)](https://github.com/joneleit)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=A371F7&center=true&vCenter=true&width=780&lines=AI+software+engineer+who+builds+end+to+end;Fine-tuning+RNA+language+models+%40+TriasBio;Agent+evals+and+RL+environments+%40+OpenAI;On-device+LLM+serving+%40+Qualcomm)](https://github.com/joneleit)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidanjoneleit)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joneleit@berkeley.edu)
-[![UC Berkeley](https://img.shields.io/badge/UC%20Berkeley-M.E.T.%20Program-003262?style=for-the-badge&logo=googlescholar&logoColor=FDB515)](https://met.berkeley.edu/)
+[![Email](https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:joneleit@berkeley.edu)
+[![UC Berkeley](https://img.shields.io/badge/UC%20Berkeley-M.E.T.%20Program-161b22?style=for-the-badge&logo=googlescholar&logoColor=FDB515)](https://met.berkeley.edu/)
 
 </div>
 
@@ -29,17 +29,12 @@ I'm an AI software engineer who likes building things end to end, from the produ
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
@@ -53,9 +48,8 @@ I'm an AI software engineer who likes building things end to end, from the produ
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Triton](https://img.shields.io/badge/-Triton%20GPU%20kernel-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-41%20passing-brightgreen?style=flat-square)
+![Triton](https://img.shields.io/badge/-Triton%20kernel-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-41%20passing-2ea043?style=flat-square)
 
 - ⚡ Real serving techniques (paged memory, request batching, speculative decoding) that make a language model respond fast
 - ✅ Proven correct by tests: the fast version gives exactly the same output as the simple reference version, even under memory pressure
@@ -67,8 +61,8 @@ I'm an AI software engineer who likes building things end to end, from the produ
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![GRPO](https://img.shields.io/badge/-GRPO%20RL-8A2BE2?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-28%20passing-brightgreen?style=flat-square)
+![GRPO](https://img.shields.io/badge/-GRPO%20RL-8957e5?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-28%20passing-2ea043?style=flat-square)
 
 - 📈 Accuracy climbed 3% to 20% to 26% across the three training stages on a held-out test, and every number is real and saved in the repo
 - 🧮 The reinforcement-learning algorithm (GRPO) is written from the math up, with no pre-made library
@@ -78,17 +72,6 @@ I'm an AI software engineer who likes building things end to end, from the produ
 
 Both repos include a design write-up explaining every decision and a roadmap of what I'm building next.
 
----
-
-## 📊 GitHub stats
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=joneleit&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joneleit&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=joneleit&theme=tokyonight&hide_border=true" height="165" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=joneleit&theme=tokyonight&no-frame=true&column=7&margin-w=8" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=110&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:0d1117&height=120&section=footer" width="100%"/>
 
 </div>
