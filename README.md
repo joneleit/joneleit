@@ -14,7 +14,7 @@
 
 ## 👋 About me
 
-I'm an AI software engineer who likes building things end to end, from the product down to the systems that run it. I'm at UC Berkeley earning a B.S. Electrical Engineering and Computer Sciences and a B.S. Business Administration through the M.E.T. dual-degree program.
+I'm an AI software engineer who likes building things end to end, from the product down to the systems that run it. I'm at UC Berkeley studying for a B.S. Electrical Engineering and Computer Sciences and a B.S. Business Administration through the M.E.T. dual-degree program.
 
 - 🧬 Summer 2026: ML engineer at TriasBio, fine-tuning RNA language models to help design personalized medicines
 - 🤖 Recently: built reinforcement-learning training environments and agent evaluations at OpenAI, and got large language models running directly on Snapdragon phone chips at Qualcomm
