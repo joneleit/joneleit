@@ -53,7 +53,7 @@ I'm an AI software engineer who likes building things end to end, from the produ
 
 - ⚡ Real serving techniques (paged KV cache, continuous batching, speculative decoding) that keep latency low under load
 - ✅ Correctness proven by tests: the optimized path produces identical output to a simple reference implementation, even under memory pressure
-- ☁️ Productin-ready: an OpenAI-compatible API, one-command AWS deployment, and live dashboards for throughput and cost
+- ☁️ Production-ready: an OpenAI-compatible API, one-command AWS deployment, and live dashboards for throughput and cost
 
 ### 🧵 [loom](https://github.com/joneleit/loom) ~ training a language model from zero
 
