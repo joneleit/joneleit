@@ -27,14 +27,12 @@ I'm an AI software engineer who likes building things end to end, from the produ
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
@@ -70,22 +68,9 @@ I'm an AI software engineer who likes building things end to end, from the produ
 - 🧮 The reinforcement-learning algorithm (GRPO) is implemented from the math up, with no pre-made library
 - 💾 Survives cloud interruptions: training resumes exactly where it left off, which keeps costs low on cheap spot servers
 
-### 🎨 [sketchroom](https://github.com/joneleit/sketchroom) ~ a real-time collaborative whiteboard
-
-> A shared canvas anyone can join from a link: strokes and live cursors appear on every screen as they happen. It's the same synchronization problem behind Figma and Google Docs, solved with nothing but AWS serverless parts, so a room costs nothing while it sits idle.
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![AWS](https://img.shields.io/badge/-AWS%20serverless-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-12%20passing-2ea043?style=flat-square)
-
-- ⚡ Feels instant: pointer input is batched every 60 ms and fanned out through API Gateway WebSockets by Lambda, so a stroke shows up on everyone's screen while it's still being drawn
-- 🧹 Nothing to babysit: one DynamoDB table holds rooms, peers, and strokes; TTLs erase abandoned rooms on their own, and late joiners still get the full canvas
-- 💰 The whole stack is Terraform and deploys with one command; a ten-person, hour-long session costs under a cent
-
 <div align="center">
 
-All three repos include a design write-up explaining every decision and a roadmap of what I'm building next.
+Both repos include a design write-up explaining every decision and a roadmap of what I'm building next.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:0d1117&height=120&section=footer" width="100%"/>
 
